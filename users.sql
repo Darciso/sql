@@ -1,5 +1,5 @@
 --- CRIANDO LOGIN E USUARIOS ------------------------------------
-EXEC sp_addlogin 'UserJuridico', '6i5yr5r3';
+
 USE Juridico
 EXEC sp_adduser UserJuridico, UserJuridico
 EXEC sp_addrolemember db_datareader, UserJuridico
